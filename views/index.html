@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Permutas ETSII</title>
+  <link rel="stylesheet" href="../style/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="gradient" />
+    <div class="prueba">
+      <div style="font-size: 25px;font-weight: 500;">WEB DE PERMUTAS</div>
+        <br />
+        <div style="font-size: 10px"> ETSII - UNIVERSIDAD DE SEVILLA</div>
+        <br /><br />
+        <button id="myBtn"><div style="font-size: 14px;line-height: 1.5em; font-weight: 400; padding:10px; border: 2px solid #999;"> <b>¡Tal vez no necesitas hacer permuta!</b><br /> Haz click aquí para ver la <b>nueva</b> normativa.</div></button>
+            <br />
+          <div class="uvus">Accede con tu UVUS</div>
+        <br />
+        <br /> <div style="display:inline;font-size: 20px;font-weight:800;"><div style="display:inline;color:#1F2B45;">d</div><div style="display:inline;color:#7DAFD2;">l</div><div style="display:inline;color:#1F2B45;">g</div><div style="display:inline;color:#808080;">a</div></div>
+    </div>
+      <!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Hola caracola!</p>
+  </div>
+
+</div>
+ </body>
+</html>
+<!-- partial -->
+  <script  src="../js/script.js"></script>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+</body>
+</html>
